@@ -154,49 +154,49 @@
                         {
                             case EditOptions.FirstName:
                                 Console.WriteLine("Enter new First Name: ");
-                                string newFirstName = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newFirstName = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditInfo("firstName", newFirstName);
                                 break;
 
                             case EditOptions.LastName:
                                 Console.WriteLine("Enter new Last Name: ");
-                                string newLastName = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newLastName = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditInfo("lastName", newLastName);
                                 break;
 
                             case EditOptions.Gender:
                                 Console.WriteLine("Enter new Gender: ");
-                                string newGender = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newGender = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditInfo("gender", newGender);
                                 break;
 
                             case EditOptions.City:
                                 Console.WriteLine("Enter new City: ");
-                                string newCity = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newCity = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditInfo("city", newCity);
                                 break;
 
                             case EditOptions.Phone:
                                 Console.WriteLine("Enter the old Phone number to edit: ");
-                                string oldPhone = Console.ReadLine() ?? "Where's the Old Information";
+                                string oldPhone = Console.ReadLine() ?? "null";
                                 Console.WriteLine("Enter the new Phone number: ");
-                                string newPhone = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newPhone = Console.ReadLine() ?? "null";
                                 UserToEdit.EditCon("phone", oldPhone, newPhone);
                                 break;
 
                             case EditOptions.Email:
                                 Console.WriteLine("Enter the old Email to edit: ");
-                                string oldEmail = Console.ReadLine() ?? "Where's the Old Information";
+                                string oldEmail = Console.ReadLine() ?? "no information";
                                 Console.WriteLine("Enter the new Email: ");
-                                string newEmail = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newEmail = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditCon("email", oldEmail, newEmail);
                                 break;
 
                             case EditOptions.Address:
                                 Console.WriteLine("Enter the old Address to edit: ");
-                                string oldAddress = Console.ReadLine() ?? "Where's the Old Information";
+                                string oldAddress = Console.ReadLine() ?? "no information";
                                 Console.WriteLine("Enter the new Address: ");
-                                string newAddress = Console.ReadLine() ?? "You didn't enter any new Information";
+                                string newAddress = Console.ReadLine() ?? "no information";
                                 UserToEdit.EditCon("address", oldAddress, newAddress);
                                 break;
 
